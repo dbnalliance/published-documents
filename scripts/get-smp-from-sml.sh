@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 # Queries the DNS and returns only the line containing the SMP service  
-NAPTR=`dig -t NAPTR $1 | grep 'oasis-bdxr-smp-2#dbnalliance-1.0'` 
+NAPTR=`dig -t NAPTR $1 | grep 'oasis-bdxr-smp-2#dbnalliance-1.1'` 
 
 # Exits script if no service is found 
 if [ -z "$NAPTR" ] 
