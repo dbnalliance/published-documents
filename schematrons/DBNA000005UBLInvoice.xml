@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="DBNA Core Invoice Profile 1.0 Minimum.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2 UBL-2.3/xsd/maindoc/UBL-Invoice-2.3.xsd"
+ xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+ xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2"
+ xmlns:ccts="urn:un:unece:uncefact:documentation:2"
+ xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+ xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2"
+ xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Core</cbc:CustomizationID>
+    <cbc:ProfileID>bdx:noprocess</cbc:ProfileID>
+    <cbc:ID>DBNA000005</cbc:ID>
+    <cbc:IssueDate>2022-07-25</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+    <cbc:Note>Well: WELL-28 Field: STATFJORD Lease: 33</cbc:Note>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    <cac:OrderReference>
+        <cbc:ID>5503570XML</cbc:ID>
+    </cac:OrderReference>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="DUNS">028916588</cbc:EndpointID>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="DUNS">028916588</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>OFS Portal LLC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cac:Country>
+                    <cbc:IdentificationCode>US</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyTaxScheme>
+                <cbc:CompanyID schemeID="VAT">968360302MVA</cbc:CompanyID>
+                <cac:TaxScheme></cac:TaxScheme>
+            </cac:PartyTaxScheme>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>OFS Portal LLC</cbc:RegistrationName>
+                <cbc:CompanyID>028916588</cbc:CompanyID>
+                <cac:RegistrationAddress>
+                    <cac:Country>
+                        <cbc:IdentificationCode>US</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+            <cac:Contact>
+                <cbc:Name>Joe Supplier</cbc:Name>
+                <cbc:Telephone>+1 713-456-7890</cbc:Telephone>
+                <cbc:ElectronicMail>cwelsh@ofs-portal.com</cbc:ElectronicMail>
+            </cac:Contact>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cbc:EndpointID schemeID="DUNS">376061359</cbc:EndpointID>
+            <cac:PartyIdentification>
+                <cbc:ID schemeID="DUNS">376061359</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Test BPC</cbc:Name>
+            </cac:PartyName>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:Delivery>
+        <cbc:ActualDeliveryDate>2021-06-01</cbc:ActualDeliveryDate>
+    </cac:Delivery>
+    <cac:PaymentMeans>
+        <cbc:PaymentMeansCode>31</cbc:PaymentMeansCode>
+    </cac:PaymentMeans>
+    <cac:AllowanceCharge>
+        <cbc:ChargeIndicator>1</cbc:ChargeIndicator>
+        <cbc:AllowanceChargeReasonCode>A020</cbc:AllowanceChargeReasonCode>
+        <cbc:Amount currencyID="USD">27.30</cbc:Amount>
+        <cac:TaxCategory>
+            <cac:TaxScheme>
+                <cbc:TaxTypeCode>AA</cbc:TaxTypeCode>
+            </cac:TaxScheme>
+        </cac:TaxCategory>
+    </cac:AllowanceCharge>
+    <cac:LegalMonetaryTotal>
+        <cbc:TaxInclusiveAmount currencyID="USD">32809.85</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">32809.85</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:Note>Job Summary: BSN, Norway VANSTANGER</cbc:Note>
+        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">0</cbc:LineExtensionAmount>
+        <cac:OrderLineReference>
+            <cbc:LineID>1</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Name>GP BIT 01R, Speed Bit 01 Series XYZ7237/01</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">32809.85</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:Note>Job Summary: BSN, Norway VANSTANGER</cbc:Note>
+        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">0</cbc:LineExtensionAmount>
+        <cac:OrderLineReference>
+            <cbc:LineID>2</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Name>GP EXT  CS 80-40 5.5",1157240</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:Note>Job Summary: BSN, Norway VANSTANGER</cbc:Note>
+        <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">0</cbc:LineExtensionAmount>
+        <cac:OrderLineReference>
+            <cbc:LineID>3</cbc:LineID>
+        </cac:OrderLineReference>
+        <cac:Item>
+            <cbc:Name>XO, 5"18#VTHC B X 4.5"12.6#  1139701</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
