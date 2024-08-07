@@ -25,7 +25,7 @@
     <!-- Test DBNA Customization ID -->
     <sch:pattern>
         <sch:rule context="cbc:CustomizationID[1]">            
-            <sch:assert test="(. = 'urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Core')">cbc:CustomizationID[1] must equal 'urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Core'</sch:assert>                
+            <sch:assert test="(. = 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##DBNAlliance-1.0-data-Core')">cbc:CustomizationID[1] must equal 'urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##DBNAlliance-1.0-data-Core'</sch:assert>                
         </sch:rule>
     </sch:pattern>
     
@@ -76,12 +76,12 @@
     DBNA Core Invoice Profile Minimum Schematron to check profile and process IDs
     Chris Welsh - January 11 2024 
 
-- urn:oasis:names:specification:ubl:schema:xsd:CreditNote2::CreditNote##DBNAlliance-1.0-data-Core
-- urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Core
-- urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Extended-embeddedattachments
-- urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Extended-envelopeattachments
-- urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse2::ApplicationResponse##DBNAlliance-1.0-data-messagelevelresponse
-- urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse2::ApplicationResponse##DBNAlliance-1.0-data-receiptacknowledgement
+- urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2::CreditNote##DBNAlliance-1.0-data-Core
+- urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##DBNAlliance-1.0-data-Core
+- urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##DBNAlliance-1.0-data-Extended-embeddedattachments
+- urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##DBNAlliance-1.0-data-Extended-envelopeattachments
+- urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2::ApplicationResponse##DBNAlliance-1.0-data-messagelevelresponse
+- urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2::ApplicationResponse##DBNAlliance-1.0-data-receiptacknowledgement
 - urn:oasis:names:specification:ubl:schema:xsd:DocumentStatusRequest-2::DocumentStatusRequest##DBNAlliance-1.0-data-invoicestatusrequest
 - urn:oasis:names:specification:ubl:schema:xsd:DocumentStatus-2::DocumentStatus##DBNAlliance-1.0-data-invoicestatus
     
