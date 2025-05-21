@@ -9,7 +9,7 @@
  xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2"
  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
     <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-    <cbc:CustomizationID>urn:oasis:names:specification:ubl:schema:xsd:Invoice2::Invoice##DBNAlliance-1.0-data-Core</cbc:CustomizationID>
+    <cbc:CustomizationID>urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##DBNAlliance-1.0-data-Core</cbc:CustomizationID>
     <cbc:ProfileID>bdx:noprocess</cbc:ProfileID>
     <cbc:ID>DBNA000005</cbc:ID>
     <cbc:IssueDate>2022-07-25</cbc:IssueDate>
